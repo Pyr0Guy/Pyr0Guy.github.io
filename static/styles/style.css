@@ -1,7 +1,93 @@
-IMG.logo{
+body{
+    /* background-image: url("https://github.com/Pyr0Guy/Pyr0Guy.github.io/blob/main/static/files/bg2.png"); */
+    background-image: url("../files/bg2.png");
+    background-size: cover;
+    font-size: 130%;
+    font-family: "Comic Sans MS";
+    color: #353535;
+
+    margin-bottom: 120px;
+}
+
+.css-draw-logo-for-me-please{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 20px;
+}
+
+.css-draw-border-with-info-about-me{
+    background-image: url("../files/idk.png");
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 120px;
+    display: block;
+    object-fit: cover;
+    border: 40px solid transparent;
+    border-image: url("../files/folderopen.png") 70 round;
+    box-shadow: 10px 5px 5px black;
+    text-align: center;
+    font-size: 36px;
+}
+
+.css-make-this-text-bold{
+    font-weight: bold;
+}
+
+.css-make-this-text-italic{
+    font-style: italic;
+}
+
+.css-i-need-a-bigger-image{
+    width: 45%;
+    height: 25%;
+}
+
+.css-draw-border-with-games-that-i-code{
+    background-image: url("../files/idk.png");
+    border: 40px solid transparent;
+    border-image: url("../files/folderopen.png") 60 round;
+    font-size: 28px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.css-i-need-to-draw-this-to-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+}
+
+.css-center-this-text-please{
+    text-align: center;
+    padding-bottom: 120px;
+    font-size: 24px;
+}
+
+.left{
+    width: 32%;
+    height: 32%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.right{
+    width: 32%;
+    height: 32%;
+    float: right;
+    padding: 0 20px 20px 0;
+}
+
+.right-for-ike{
+    width: 25%;
+    height: 25%;
+    float: right;
+    padding: 0 20px 20px 0;
+}
+
+.margin-fuck{
+    margin-bottom: 250px;
 }
